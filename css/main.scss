@@ -1,0 +1,264 @@
+$dark-color: #19283f;
+$green-color: #33d1cc;
+$red-color: #ff3150;
+$yellow-color: #ffc400;
+$section-color: #eff7fa;
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+//start components
+.main-btn {
+    background-color: $red-color;
+    color: $yellow-color;
+    padding: .5rem 1rem;
+
+    &:hover {
+        background-color: rgba($color: $red-color, $alpha: 90%);
+        color: $yellow-color;
+    }
+}
+
+
+.main-title {
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 2px;
+        background-color: $green-color;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+//end components
+// start nav bar 
+
+.navbar {
+    background-color: $dark-color;
+
+    .navbar-toggler {
+        font-size: 25px;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &[aria-expanded="true"] {
+            border-color: $green-color;
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: white;
+
+            &.active,
+            &:focus,
+            &:hover {
+                color: $green-color;
+            }
+        }
+    }
+
+    .search {
+        border-left: 1px solid $green-color;
+
+        svg {
+            color: $green-color;
+        }
+    }
+}
+
+// end nav bar
+// start landing
+.landing {
+    background-color: $dark-color;
+    min-height: calc(100vh - 72px);
+}
+
+// end landing
+// start features
+.features {
+    .row {
+        .feat {
+            .icon-holder {
+                height: 200px;
+
+                svg {
+                    &.number {
+                        font-size: 12rem;
+                        color: $section-color;
+                    }
+
+                    &.icon {
+                        color: $green-color;
+                    }
+                }
+            }
+
+            h4 {
+                color: $yellow-color;
+            }
+
+        }
+    }
+}
+
+// end features
+// start our work 
+.our-work {
+    background-color: $section-color;
+
+    ul {
+        li {
+            transition: .3s;
+
+            &.active {
+                background-color: $red-color;
+                color: $yellow-color;
+            }
+
+            &:not(.active):hover {
+                color: $red-color;
+            }
+
+            padding: .5rem 1rem;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+    }
+
+    .box {
+        padding: 5px;
+
+        &::before {
+            content: attr(data-work);
+            position: absolute;
+            background-color: rgba($color: $green-color, $alpha: 76%);
+            width: calc(100% - 10px);
+            height: calc(100% - 10px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+            transition: .3s;
+            transform: translateX(calc(-100% - 5px));
+        }
+
+        &:hover::before {
+            transform: translateX(0);
+        }
+    }
+}
+
+// end our work 
+// start stuff
+.stuff {
+    .description {
+        max-width: 500px;
+    }
+}
+
+// end stuff
+// start team
+.team {
+    background-color: $section-color;
+
+    h2 {
+        color: $yellow-color;
+    }
+
+    .box {
+        h4 {
+            background-color: $green-color;
+        }
+    }
+}
+
+// end team
+// start project
+.project {
+    background-color: $dark-color;
+}
+
+// end project
+// start subscribe
+.subscribe {
+    background-color: $yellow-color;
+
+    form {
+        input[type="email"] {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid white;
+
+            &::placeholder {
+                color: $dark-color;
+            }
+
+            @media (max-width:768px) {
+                margin-bottom: 15px;
+            }
+        }
+
+        .btn {
+            background-color: rgba($color: $dark-color, $alpha: 97%);
+            color: $yellow-color;
+
+            &:hover {
+                background-color: $dark-color;
+            }
+
+        }
+
+
+    }
+}
+
+// end subscribe
+// start footer
+footer {
+    background-color: $dark-color;
+
+    .copyright {
+        .designer {
+            color: $green-color;
+        }
+
+        #copyright {
+            span.logo {
+                color: $yellow-color;
+            }
+        }
+    }
+
+    .social-media {
+        .facebook {
+            background-color: #4267B2;
+            color: white;
+        }
+
+        .twitter {
+            background-color: #1DA1F2;
+            color: white;
+        }
+
+        .linkedin {
+            background-color: #0a66c2;
+            color: white;
+        }
+
+        .youtube {
+            background-color: #FF0000;
+            color: white;
+        }
+    }
+}
+
+// end footer
