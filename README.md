@@ -8,7 +8,7 @@ Template provided by Graphberry (https://graphberry.com).
 Link to a live demo of the project: [Bondi Design](https://mohamed-lifa7.github.io/Bondi-design)
 
 ## Screenshots
-![Preview of Bondi Design landing page](https://example.com/images/Preview.png)
+![Preview of Bondi Design landing page](https://https://mohamed-lifa7.github.io/Bondi-design/images/Preview.png)
 
 ## Technologies Used
 
