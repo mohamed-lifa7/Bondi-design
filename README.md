@@ -65,11 +65,9 @@ How to contribute to the project.
 
 ## Acknowledgments
 
-Give credit to any resources or inspiration used in the project.
+I would like to extend a big thank you to my instructor [Elzero Web School](elzero.org) for providing me with this amazing opportunity to learn graphic and web design. Their guidance and support throughout this course have been invaluable, and I am extremely grateful for all the effort they have put into creating such a comprehensive and informative program. Thank you for sharing your knowledge and expertise with me, and for helping me develop my skills in this field.
 
-- Bootstrap
-- Font Awesome
-- Google Fonts
+link to the [course of Bootstrap](https://www.youtube.com/playlist?list=PLDoPjvoNmBAyvm7f--dc6XqkpfDcen_vQ)
 
 ## Contact
 
