@@ -71,7 +71,7 @@ link to the [course of Bootstrap](https://www.youtube.com/playlist?list=PLDoPjvo
 
 ## Contact
 
-Contact information for the author or maintainer of the project.
+Contact information for the author.
 
 - Name: Lifa Mohammed Seddik
 - Email: mohamedlifa7@gmail.com
