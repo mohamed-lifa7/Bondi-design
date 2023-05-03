@@ -33,8 +33,6 @@ all the features of the project.
 
 ### Prerequisites
 
-List any prerequisites required to run the project.
-
 - None
 
 ### Installation
@@ -62,8 +60,6 @@ How to contribute to the project.
 4. Submit a pull request.
 
 ## License
-
-Mention any licenses used in the project.
 
 - MIT License
 
