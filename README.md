@@ -12,7 +12,7 @@ Link to a live demo of the project: [Bondi Design](https://mohamed-lifa7.github.
 
 ## Technologies Used
 
-List all the technologies or libraries used in the project.
+All the technologies and libraries used in the project.
 
 - HTML
 - CSS
